@@ -25,9 +25,9 @@
 }
 .i-name> :nth-child(3){
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
    color: rgb(123 116 116);
-    margin-top: 10px;
+    margin-top: 2%;
 }
 .i-button{
     width: 7rem;
@@ -46,9 +46,9 @@
     cursor: pointer;
 }
 .i-naukri{
-    height: 90px;
+    height:6rem;
     border-radius: 50%;
-    width: 90px;
+    width: 6rem;
     background-color: orange;
 }
 
@@ -81,7 +81,7 @@
     left: 68%;
     filter: blur(72px);
   }
-  @media screen and (max-width: 480px){
+  @media only screen and (max-width: 600px){
       .intro{
           flex-direction: column;
           height: 60rem;
@@ -90,6 +90,9 @@
       .i-right{
           transform: scale(0.8);
           left: -6rem;
+      }
+      .i-right>:nth-child(2){
+          left: 42%;
       }
       .blur{
           display: none;

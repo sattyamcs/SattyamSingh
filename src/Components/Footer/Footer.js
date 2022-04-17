@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div>
         <div className="footer">
-        <img src={wave} alt=""  style={{width:'100%'}}/>
+        <img src={wave} alt=""  style={{width:'100%' ,height:"20rem"}}/>
         <div className="f-content">
             <span>rk0177cs@gmail.com</span>
             <div className="f-icons">

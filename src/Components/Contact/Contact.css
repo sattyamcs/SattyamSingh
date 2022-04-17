@@ -12,12 +12,12 @@
   /* flex: 1; */
   align-items: center;
   flex-direction: column;
-  width: 25%;
+  /* width: 25%; */
   border: 7px solid var(--orangeCard);
   box-shadow: var(--boxShadow);
-  padding: 37px;
+  padding: 3%;
   left: 25%;
-  border-radius: 20px;
+  border-radius: 1rem;
 }
 .exp {
   display: flex;
@@ -26,23 +26,22 @@
 }
 .ach {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .ach > :nth-child(1) {
   color: orange;
-  font-size: 18px;
+  font-size: 1rem;
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 600px){
   .contact {
     flex-direction: column;
     padding: 0;
-    margin: 0;
-    height: 100vh;
+    height: 60vh;
   }
   .w-right {
-    width: 70%; 
     left: 0;
     margin-top: 3rem;
+    border-width: thin;
   }
 }
